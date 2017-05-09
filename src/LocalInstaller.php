@@ -1,5 +1,5 @@
 <?php
-namespace PawBx\Composer\Localdev;
+namespace PawFw\Composer\Localdev;
 
 use Composer\Composer;
 use Composer\Installer\InstallationManager;

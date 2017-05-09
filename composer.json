@@ -10,7 +10,7 @@
     ],
     "autoload" : {
         "psr-4" : {
-            "Pawbx\\Composer\\Localdev\\" : "src"
+            "PawFw\\Composer\\Localdev\\" : "src"
         }
     },
     "require" : {
@@ -21,6 +21,6 @@
         "composer/composer" : "master-dev"
     },
     "extra" : {
-        "class" : "\\PawBx\\Composer\\Localdev\\ComposerLocaldevPlugin"
+        "class" : "\\PawFw\\Composer\\Localdev\\ComposerLocaldevPlugin"
     }
 }
