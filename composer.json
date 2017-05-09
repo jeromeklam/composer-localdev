@@ -1,0 +1,26 @@
+{
+    "name" : "jeromeklam/composer-localdev",
+    "type" : "composer-plugin",
+    "description" : "Composer Plugin for local development",
+    "license" : "MIT",
+    "keywords" : [
+        "composer",
+        "local",
+        "development"
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Pawbx\\Composer\\Localdev\\" : "src"
+        }
+    },
+    "require" : {
+        "php"                 : ">=5.3",
+        "composer-plugin-api" : "^1.0"
+    },
+    "require-dev" : {
+        "composer/composer" : "master-dev"
+    },
+    "extra" : {
+        "class" : "\\PawBx\\Composer\\Localdev\\ComposerLocaldevPlugin"
+    }
+}
