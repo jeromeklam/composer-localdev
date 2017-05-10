@@ -12,7 +12,7 @@ Imagine the following: You are developing two packages, A and B. Package A depen
 At best this plugin is installed globally, so go ahead:
 
 ```
-$ composer global require 'PawBx/composer-localdev'
+$ composer global require 'jeromeklam/composer-localdev'
 $ composer global update
 ```
 
