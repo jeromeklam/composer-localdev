@@ -139,7 +139,7 @@ class LocalInstaller implements InstallerInterface
                     throw new \Exception(sprintf('Unable to find % directory... Relative path ?', $dest));
                 }
             }
-            if (true !== @symlink($originDir, $targetDir)) {
+            if (true !== @symlink($dest, $targetDir)) {
                 $report = error_get_last();
                 if (is_array($report)) {
                     if (defined('PHP_WINDOWS_VERSION_MAJOR') && false !== strpos($report['message'], 'error code(1314)')) {
